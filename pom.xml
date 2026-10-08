@@ -3,6 +3,13 @@
     <groupId>com.devops</groupId>
     <artifactId>jenkins-lab</artifactId>
     <version>1.0</version>
+    
+    <!-- Tell Maven to compile using modern Java -->
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+    </properties>
+
     <build>
         <sourceDirectory>src</sourceDirectory>
         <plugins>
